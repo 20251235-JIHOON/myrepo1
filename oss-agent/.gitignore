@@ -1,4 +1,13 @@
-   .venv/
-   __pycache__/
-   secret.py
-   
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+secret.py
+*.pem
+*.key
+.DS_Store
+Thumbs.db
